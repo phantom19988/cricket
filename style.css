@@ -20,7 +20,7 @@ nav{
 }
 
 nav .logo{
-    height: 1rem;
+    height: 2rem;
     /* font-size: 1.5rem;
     font-weight: bold;
     color: white;
@@ -123,10 +123,12 @@ nav ul .sign-up-btn {
     font-size: 2.5rem;
     padding: 1rem 2rem;
     color: white;
+    padding-bottom: 2rem;
 }
 .trending-page .gallery {
     height: 100vh;
-    max-width: 80vw;
+    /* max-width: 80vw; */+
+    width: 100vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -134,12 +136,11 @@ nav ul .sign-up-btn {
 }
 
 .trending-page .gallery img{
+    height: 300px;
+    width: 400px;
      border: 2px solid black;
     box-shadow: 10px 10px  5px  black ;
     cursor: pointer;
-
-    height: 200px;
-    width: 300px;
 }
 
 
@@ -189,6 +190,12 @@ nav ul .sign-up-btn {
     padding-left: .5rem;
     padding: 1rem;
 
+}
+
+.card .game-name {
+    font-weight: bold;
+    font-size: 1.4rem;
+     text-shadow: 2px 2px 8px #FF0000;
 }
 .card img {
     height: 300px;
