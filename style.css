@@ -60,7 +60,7 @@ nav ul .sign-up-btn {
 }
 
 .banner-img{
-    height: 400px;
+    height: 350px;
     width: 100vw;
     object-fit: cover;
     margin-bottom: -10px;
@@ -68,7 +68,7 @@ nav ul .sign-up-btn {
 
 .main-heading{
     /* height: 100vh; */
-    height: 500px;
+    height: 550px;
     width: 100vw;
     padding: 2rem;
     /* background-image: url(/banner-2.jpg); */
@@ -135,6 +135,9 @@ nav ul .sign-up-btn {
     gap: 30px;
 }
 
+
+
+
 .trending-page .gallery img{
     height: 300px;
     width: 400px;
@@ -142,7 +145,11 @@ nav ul .sign-up-btn {
     box-shadow: 10px 10px  5px  black ;
     cursor: pointer;
 }
-
+.trending-page .gallery img:hover {
+    /* border: 2px solid white; */
+    scale: 1.1;
+    transition: all 0.5s;
+}
 
 .games-page{
     background-color: rgb(165, 11, 37);
@@ -204,7 +211,6 @@ nav ul .sign-up-btn {
     object-fit: cover;
 
 }
-
 .about{
     padding: 2rem;
     padding-left: 3rem;
