@@ -95,7 +95,7 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     padding-bottom: 5rem;
-    padding-top: 5rem;
+    padding-top: 6rem;
 }
 
 .trending-page h2{
@@ -165,6 +165,8 @@ nav ul li a {
     border: 2px solid black;
     box-shadow: 10px 10px  5px  black ;
     cursor: pointer;
+    padding-left: .5rem;
+    padding: 1rem;
 
 }
 .card img {
@@ -176,7 +178,9 @@ nav ul li a {
 }
 
 .about{
-   color: black;
+    padding: 2rem;
+    padding-left: 3rem;
+    color: black;
     background-color: rgba(59, 59, 59, 0.473);
 
 }
