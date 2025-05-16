@@ -11,7 +11,8 @@ body{
 }
 
 nav{
-    background-color: rgb(165, 11, 37);
+    position: sticky;
+    background-color: rgb(14,44,54);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,15 +50,26 @@ nav ul button {
 }
 
 nav ul .log-in-btn {
-    /* background-color:rgb(165, 11, 37) ; */
-     background: linear-gradient(to right , rgb(255, 0, 0) , rgb(255, 96, 96));
+    background-color:  rgb(105,237,210);
 }
 
-nav ul .sign-up-btn {
-    /* background-color:rgb(255, 73, 73) ;
-     */
-      background: linear-gradient(to right , rgb(255, 0, 0) , rgb(255, 96, 96));
+nav ul .log-in-btn:hover{
+    transition: 1s;
+    background: linear-gradient(to right , rgba(0, 0, 0, 0.308),  black);
+    color: white;
 }
+
+
+nav ul .sign-up-btn {
+     background-color:  rgb(105,237,210);
+}
+
+nav ul .sign-up-btn:hover{
+    transition: 1s;
+    background: linear-gradient(to right , rgba(0, 0, 0, 0.308),  black);
+    color: white;
+}
+
 
 .banner-img{
     height: 350px;
@@ -67,11 +79,15 @@ nav ul .sign-up-btn {
 }
 
 .main-heading{
-    /* height: 100vh; */
-    height: 550px;
+    height: 100vh;
+    /* height: 550px; */
     width: 100vw;
     padding: 2rem;
-    /* background-image: url(/banner-2.jpg); */
+    background-image: url(images/banner-4.jpg);
+    opacity: 0.99;
+    background-repeat: no-repeat;
+     background-size: auto;
+     background-size: 100% 100%;
     background-color: rgb(59, 59, 59);
     display: flex;
     flex-direction: column;
@@ -97,7 +113,7 @@ nav ul .sign-up-btn {
     border-radius:0%;
     cursor: pointer;
     border: 2px solid black;
-    background: linear-gradient(to right , rgb(255, 0, 0) , rgb(255, 96, 96));
+    background-color:  rgb(105,237,210);
 }
 .main-heading button:hover{
     transition: 1s;
@@ -109,7 +125,7 @@ nav ul .sign-up-btn {
     height: 100vh;
     width: 100vw;
     
-    background-color: rgb(165, 11, 37);
+    background-color: rgb(14,44,54);
 
     display: flex;
     flex-direction: column;
@@ -154,7 +170,7 @@ nav ul .sign-up-btn {
 }
 
 .games-page{
-    background-color: rgb(165, 11, 37);
+    background-color: rgb(14,44,54);
     color: white;
 
     display: flex;
@@ -192,7 +208,8 @@ nav ul .sign-up-btn {
     gap: 50px;
 
     max-width: 500px;
-    background: linear-gradient(to right , rgba(0, 0, 0, 0.363) ,  rgba(59, 59, 59, 0.473));
+    /* background: linear-gradient(to right , rgb(8, 252, 203) ,  rgb(105,237,210)); */
+    background-color: rgb(14,44,54);
     border: 2px solid black;
     cursor: pointer;
     padding-left: .5rem;
@@ -230,7 +247,7 @@ nav ul .sign-up-btn {
     padding: 2rem;
     padding-left: 3rem;
     color: black;
-    background-color: rgba(59, 59, 59, 0.473);
+    background-color: rgb(105,237,210);
 
 }
 
